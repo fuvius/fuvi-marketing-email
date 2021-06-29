@@ -1,0 +1,78 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Arial', 'Calibri', sans-serif;
+}
+
+.ExternalClass {
+    width: 100%;
+}
+
+.ReadMsgBody {
+    width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+}
+
+#contentTableOuter {
+    border-width: 0 !important;
+    box-shadow: none;
+    padding: 0 !important;
+}
+
+
+table,
+td {
+    border-collapse: collapse;
+    margin: 0;
+    mso-table-lspace: 0;
+    mso-table-rspace: 0;
+    padding: 0;
+}
+
+
+a {
+    color: #0281C2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+    transition: all .25s ease-in-out
+}
+
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] {
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 800px) {
+    table[class=container800] {
+        width: 100% !important;
+    }
+
+    table[class=container800_img] {
+        width: 50% !important;
+    }
+
+    table[class=half-container800] {
+        width: 50% !important;
+    }
+
+    table[class=preheader] {
+        width: 90% !important;
+    }
+
+    td[class=hide800] {
+        display: none !important
+    }
+}
